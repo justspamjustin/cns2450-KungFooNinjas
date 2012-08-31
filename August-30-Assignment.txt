@@ -1,0 +1,15 @@
+1. Audience
+ The audience will be educated medical personnel and the broad range of their patients. 
+ For minors below the age of eighteen we could reasonably assume the communication would
+ be sent to a guardian.  Aside from this limitation, the audience reached could include 
+ anyone from a variety of levels of education, professional achievement, and technological 
+ awareness.
+2. Time Est.
+We can have 80% confidence that it will be done between 1 to 6 months.  It will be at least 1 month because we need to plan and design the architecture and may need to subscribe to external APIs and services to fulfill all of the requirements.  We also need to plan how we are going to deploy and test our code.  It will be at most 6 months because there are many unknowns.  We may run into unforeseen deployment issues or bugs.
+3. Language
+This project would definitely be a combination of many languages.  Java for android, java for the REST endpoints, Objective C for IOS and javascript/html/css for the web front-end.
+4. Platform
+The best platform for this project might be a smartphone and web interface.  This gives the user the ability to take full advantage of their mobile devices.  It would mean that we would have to program the client, server, android and IOS.
+5. Features
+- Remind people to take pills when they need to via phone call, text messaging, email, home phone or push notifications on a smartphone.
+- Display a bar chart history of when the users actually took their pills or didn't take them.  Display this on both smartphone device and on web interface.
