@@ -66,3 +66,35 @@ I started a boilerplate for our project.
   play run
 4.  This will start your server and you can now hit it at: http://localhost:9000/
   Let me know what you think!
+
+Requirements
+----------------
+
+* Feature 1 - Registration/Login/Auth system
+* Feature 2 - Task Management (tracking)
+* Feature 3 - Notification System
+* Feature 4 - Mobile Integration
+
+Roadmap
+-------------------
+
+### September
+* Deliverable 1 - Non-functional login page and infrastructure/production environment - Feature 1 (Registration)
+
+### October
+* Deliverable 2 - Feature 1 - 
+* Deliverable 4 - Feature 1
+
+### November
+* Deliverable 5 - Feature 3
+* Deliverable 6 - Feature 2
+
+### December
+* Deliverable 7 - Feature 4
+ 
+Task Assignment
+------------------
+
+* Deliverable 1 - Mike & Other
+* Deliverable 2 - Mike & Other
+(Repeated for each deliverable)
