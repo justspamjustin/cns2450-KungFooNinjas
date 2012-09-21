@@ -1,0 +1,37 @@
+Reply message
+=====================
+
+That looks great.  Now, if you were to develop it for iPhone, I'm assuming this is web-based (ie accessible through a browser) and not a full app via the app store, correct?  I mean, I'd love the latter, but I assume that would be far more work than this project is intended to cover.
+
+Thanks,
+Branson K. West
+
+Branson K West Law, PC
+10421 South Jordan Gateway, Suite 600
+South Jordan, UT 84095
+(801) 285-5550 Office
+(801) 682-9279 Cell
+(801) 495-7041 Fax
+
+This communication is sent from Branson K West Law, PC/ Branson K. West and is intended solely for the named recipient.  Mr. West is an attorney representing the interests of third parties.  If you have received this by mistake please inform Mr. West of the error immediately.
+
+
+Original message
+
+==================
+
+Good morning Branson,
+
+Thank-you for taking the time on the phone to discuss details regarding your project.  Per our discussion I've prepared the following summary:
+
+Web-based application accessible via PC and mobile phone (prefer iphone)
+Goal and sub-goal (Milestone) reminders (prefer text but email is ok)
+Each goal will have the following:
+        A title (ie Prepare & send the Jones' appeal letter)
+        A due date
+        Milestones w/ titles (ie prepare the Jones' appeal letter, mail the Jones' appeal letter, etc) and due dates
+Please advise if I have missed anything
+
+Sincerely,
+
+Dan Davis
