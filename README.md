@@ -73,7 +73,7 @@ Requirements
 * Feature 1 - Registration/Login/Auth system
 * Feature 2 - Task Management (tracking)
 * Feature 3 - Notification System
-* Feature 4 - Mobile Integration
+* Feature 4 - Desktop Web app (Stretch item)
 
 Roadmap
 -------------------
@@ -82,19 +82,23 @@ Roadmap
 * Deliverable 1 - Non-functional login page and infrastructure/production environment - Feature 1 (Registration)
 
 ### October
-* Deliverable 2 - Feature 1 - 
-* Deliverable 4 - Feature 1
+* Deliverable 2 - Functional Login and registration - Feature 1 
+* Deliverable 3 - Task Management System (basic parent tasks only, no sub-tasks) - Feature 2
 
 ### November
-* Deliverable 5 - Feature 3
-* Deliverable 6 - Feature 2
+* Deliverable 4 - Task Management System (ability to add sub tasks to parent tasks) - Feature 2
+* Deliverable 5 - Notificatoin System for sending emails - Feature 3
 
 ### December
-* Deliverable 7 - Feature 4
+* Deliverable 6 - Complete, debug, assure functional, also Desktop Web App if we still have time - Feature 4
  
 Task Assignment
 ------------------
 
-* Deliverable 1 - Mike & Other
-* Deliverable 2 - Mike & Other
+* Deliverable 1 - Justin & Dan
+* Deliverable 2 - Bryson & Adam
+* Deliverable 3 - Brian & Justin
+* Deliverable 4 - Dan & Bryson
+* Deliverable 5 - Adam & Brian
+* Deliverable 6 - Kung Foo Ninjas!
 (Repeated for each deliverable)
