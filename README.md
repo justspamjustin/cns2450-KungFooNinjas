@@ -53,6 +53,8 @@ Email: justspamjustin@gmail.com
 Phone: 801-376-7521
 Github: justspamjustin
 
+Xeround and appfog username: bstah99@hotmial.com Password: wegotthefoo!
+
 Get Started for Development
 =============
 I started a boilerplate for our project.
