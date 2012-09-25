@@ -53,7 +53,16 @@ Email: justspamjustin@gmail.com
 Phone: 801-376-7521
 Github: justspamjustin
 
-Xeround and appfog username: bstah99@hotmial.com Password: wegotthefoo!
+Team gmail:
+email: kungfooninjas.cs2450@gmail.com
+password: wegotthefoo!
+
+Xeround:
+username: bstah99@hotmial.com Password: wegotthefoo!
+
+Appfog:
+email: kungfooninjas.cs2450@gmail.com
+password: wegotthefoo!
 
 Get Started for Development
 =============
