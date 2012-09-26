@@ -1,0 +1,14 @@
+--- 
+applications: 
+  tasktrackerzip.war: 
+    url: ${name}.${target-base}
+    infra: aws
+    instances: 1
+    mem: 256M
+    framework: 
+      info: 
+        exec: 
+        mem: 2048M
+        description: Play Framework Application
+      name: play
+    name: tasktracker
