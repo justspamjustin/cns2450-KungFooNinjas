@@ -1,0 +1,183 @@
+Kung Foo Ninjas
+
+=============
+
+Retrospective – 1 – September 27, 2012
+
+-------------------------------------------------
+
+Previous Iteration Goals (Note, add two spaces at the end of a line to make a return for this).
+
+N/A
+
+Things you did wrong:
+
+* Maybe we didn't take enough on, but we felt it was successful and didn't have anything we would consider to be poor. - Dan and Adam (and everyone)
+
+Things you did right:
+
+* We got our hosting working - Dan
+
+* Our meeting for sprint planning went great - Justin
+
+Goals for next Iteration:
+
+* Everyone have a set up development environment
+
+* Improve communication during iteration
+
+Stories from last iteration:
+
+* Feature 1 - in progress, Dan, Brian and Justin
+
+Stories for this iteration:
+
+* Javascript for login : 8 - Bryson
+
+* Java for login : 15 - Dan, Adam, Brian
+
+* Database for login : 5 - Justin
+
+User Interation:
+
+### Initial contact
+
+REPLY
+========
+
+
+
+Hi Justin,
+
+
+
+I'm happy to share.  I'm a criminal defense attorney.  I own my own law firm, which you can look at at www.bransonwestlaw.com.  I previously worked at another criminal defense law firm.  I went to law school at the University of Utah, but did my undergrad at BYU.  I graduated with a BS in Information Systems, which is through the business school there.  It was probably 70% business 30% computers.  I had maybe three classes in programming and web development, a couple in db administration and theory, a couple of hardware classes, and most of the rest was business related in my major.
+
+
+
+I have worked at one other law firm that did credit repair and consumer law.  I also worked at IHC in their Information Systems department, where I drafted HIPAA policy for the company for 2 1/2 years.  In my spare time, I also do some intellectual property law consulting (copyright/trademark stuff), and I'm also an NFL agent.
+
+
+
+Hopefully that gives you a little bit of a background on me.  If you have other questions, let me know.
+
+
+
+Thanks,
+
+Branson K. West
+
+
+
+Branson K West Law, PC
+
+10421 So. Jordan Gateway, Suite 600
+
+South Jordan, UT 84095
+
+(801) 285-5550 Office
+
+(801) 682-9279 Cell
+
+(801) 495-7041 Fax
+
+
+
+This communication is sent from Branson K West Law, PC/ Branson K. West and is intended solely for the named recipient.  Mr. West is an attorney representing the interests of third parties.  If you have received this by mistake please inform Mr. West of the error immediately.
+
+
+
+ORIGINAL MESSAGE
+
+================
+
+
+
+Branson,
+
+Our team would like to keep in contact with you for our Software Engineering class at UVU.  We are excited to work with you to help us define the Goal Tracking project we are going to be working on this semester.   Do you mind sharing some information about yourself, such as your profession, background, and experiences?  We will contact you again this Thursday (via email) to discuss more detailed requirements about the project.  Please reply to our emails using the "Reply All" button in your email, so our team can all stay on the email thread.
+
+Thanks,
+
+Justin and the Team
+
+
+
+
+
+### Contact after that
+
+
+
+Reply message
+=====================
+
+
+
+That looks great.  Now, if you were to develop it for iPhone, I'm assuming this is web-based (ie accessible through a browser) and not a full app via the app store, correct?  I mean, I'd love the latter, but I assume that would be far more work than this project is intended to cover.
+
+
+
+Thanks,
+
+Branson K. West
+
+
+
+Branson K West Law, PC
+
+10421 South Jordan Gateway, Suite 600
+
+South Jordan, UT 84095
+
+(801) 285-5550 Office
+
+(801) 682-9279 Cell
+
+(801) 495-7041 Fax
+
+
+
+This communication is sent from Branson K West Law, PC/ Branson K. West and is intended solely for the named recipient.  Mr. West is an attorney representing the interests of third parties.  If you have received this by mistake please inform Mr. West of the error immediately.
+
+
+
+
+
+Original message
+
+
+
+==================
+
+
+
+Good morning Branson,
+
+
+
+Thank-you for taking the time on the phone to discuss details regarding your project.  Per our discussion I've prepared the following summary:
+
+
+
+Web-based application accessible via PC and mobile phone (prefer iphone)
+
+Goal and sub-goal (Milestone) reminders (prefer text but email is ok)
+
+Each goal will have the following:
+
+        A title (ie Prepare & send the Jones' appeal letter)
+
+        A due date
+
+        Milestones w/ titles (ie prepare the Jones' appeal letter, mail the Jones' appeal letter, etc) and due dates
+
+Please advise if I have missed anything
+
+
+
+Sincerely,
+
+
+
+Dan Davis
