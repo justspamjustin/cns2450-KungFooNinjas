@@ -70,7 +70,7 @@ I started a boilerplate for our project.
 
 1. Clone the repo if you know how to use git: git@github.com:justspamjustin/cns2450-KungFooNinjas.git
   Otherwise, just use the sync button in the windows git client.
-2. Install playframework 2.0.3: http://www.playframework.org/documentation/2.0.3/Installing
+2. Install playframework 1.2.4: http://www.playframework.org/documentation/2.0.3/Installing
   This youtube tutorial may be helpful: http://www.youtube.com/watch?v=msJH-YLropw
 3. Start your server from the command prompt:
   cd [project directory]
