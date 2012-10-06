@@ -21,15 +21,6 @@ define(['text!templates/register-login-template.handlebars'],function(registerLo
                 password: $('#loginPassword').val()
             }
             var success = this.SendLoginData(loginObject);
-            if(success){
-                alert("goto task list page");
-            }
-            else
-            {
-                $('#loginWarning').text(" Incorrect E-Mail address or Password");       
-                setTimeout(this.ClearWarning, 5000);
-            }
-//            alert($('#loginEmail').val()+" login clicked " + loginObject.email + " " + loginObject.password);
         }
     },   
     RegisterOnClick: function(){
@@ -59,8 +50,22 @@ define(['text!templates/register-login-template.handlebars'],function(registerLo
         
     },
     SendLoginData: function (loginData){
-        alert("email: " + loginData.email + " password: " + loginData.password);
-        var success = false;
+        $.ajax({
+            url: '/user/login?email='+loginData.email+'&password='+loginData.password,
+            type: 'POST',
+            success: function(data) {
+                if(data.ERROR) {
+                    $('#loginWarning').text(data.ERROR);
+                } else {
+                    //todo: go to main task page
+                }
+            },
+            error: function(data) {
+                $('#loginWarning').text("      There was an error while you were trying to login, please try again.");
+            }
+        });
+
+        var success = true;
         return success;
     },
 
@@ -68,10 +73,12 @@ define(['text!templates/register-login-template.handlebars'],function(registerLo
         $.ajax({
             url: '/user?email='+registerData.email+'&password='+registerData.password,
             type: 'POST',
-            success: function(data) {
-                //todo: auto login
-            },
+            success: _.bind(function(data) {
+                this.SendLoginData(registerData);
+            },this),
             error: function(data) {
+                // If there was an error.  The problem was most likely that there is already an
+                // entry with the email address.
                 $('#registerWarning').text("      You have already registered with this email address.");
             }
         })
