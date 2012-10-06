@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/GoalTracker.iml" filepath="$PROJECT_DIR$/.idea_modules/GoalTracker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/GoalTracker-build.iml" filepath="$PROJECT_DIR$/.idea_modules/GoalTracker-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasktracker.iml" filepath="$PROJECT_DIR$/tasktracker.iml" />
     </modules>
   </component>
 </project>

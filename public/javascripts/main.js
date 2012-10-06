@@ -1,8 +1,8 @@
-require(['views/HelloWorldView'],function(HelloWorldView){
-    var helloWorldView = new HelloWorldView({
+require(['views/RegisterLoginView'],function(RegisterLoginView){
+    var registerLoginView = new RegisterLoginView({
        el:$("#inner-pages")
     });
 
-    helloWorldView.render();
+    registerLoginView.render();
 
 });

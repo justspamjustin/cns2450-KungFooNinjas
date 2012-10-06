@@ -5,6 +5,13 @@
 # Home page
 GET     /                                       Application.index
 
+# User endpoints
+POST    /user                                   User.create
+POST    /user/login                             User.login
+# Other possible endpoints in the future
+# PUT   /user                                   User.update
+# GET   /user/{userId}                          User.get
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 

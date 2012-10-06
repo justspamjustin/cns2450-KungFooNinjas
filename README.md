@@ -58,7 +58,7 @@ email: kungfooninjas.cs2450@gmail.com
 password: wegotthefoo!
 
 Xeround:
-username: bstah99@hotmial.com Password: wegotthefoo!
+username: kungfooninjas.cs2450@gmail.com Password: wegotthefoo!
 
 Appfog:
 email: kungfooninjas.cs2450@gmail.com

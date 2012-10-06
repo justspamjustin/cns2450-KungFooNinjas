@@ -1,7 +1,7 @@
-define(['text!templates/hello-world-template.handlebars'],function(helloWorldTemplate){
+define(['text!templates/register-login-template.handlebars'],function(registerLoginTemplate){
     return Backbone.View.extend({
         render: function() {
-            var template = Handlebars.compile(helloWorldTemplate);
+            var template = Handlebars.compile(registerLoginTemplate);
             this.$el.html(template());
             return this;
         },
@@ -65,7 +65,16 @@ define(['text!templates/hello-world-template.handlebars'],function(helloWorldTem
     },
 
     SendRegisterData : function (registerData){
-        alert("email: " + registerData.email + " password: " + registerData.password);
+        $.ajax({
+            url: '/user?email='+registerData.email+'&password='+registerData.password,
+            type: 'POST',
+            success: function(data) {
+                //todo: auto login
+            },
+            error: function(data) {
+                $('#registerWarning').text("      You have already registered with this email address.");
+            }
+        })
     },
     ClearWarning : function() {
         $('.warning').text("");
