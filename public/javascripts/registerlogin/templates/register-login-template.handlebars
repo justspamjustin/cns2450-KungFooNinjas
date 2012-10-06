@@ -1,0 +1,31 @@
+<style type="text/css">
+.warning{
+    color: red;
+}
+.maroon{
+    color: #700007;
+}
+</style>
+
+<div class='container hero-unit'>
+    <h2>Task Tracker <i class="icon-dashboard"></i></h2>
+    <h3>Login</h3>
+    <form>
+        <label><i class="icon-envelope"></i> Email <span id="loginWarning" class="warning"></label>
+        <input id="loginEmail" type="text" name="email">
+        <label><i class="icon-key"></i> Password</label>
+        <input id="loginPassword" type="password" name="password">
+    </form>
+    <button id="loginButton" class="btn btn-primary" >Login <i class="icon-signin"></i></button>
+
+    <h3>Register</h3>
+    <form>
+        <label><i class="icon-envelope"></i> Email<span id="registerWarning" class="warning"></span></label>
+        <input id="registerEmail" type="text" name="email">
+        <label><i class="icon-key"></i> Password<span id="registerPasswordWarning" class="warning"></label>
+        <input id="registerPassword1"type="password" name="password">
+        <label><i class="icon-key"></i> Verify Password</label>
+        <input id="registerPassword2" type="password" name="verifypassword">
+    </form>
+    <button id="registerButton" class="btn btn-primary" >Register <i class="icon-edit"></i></button>
+</div>

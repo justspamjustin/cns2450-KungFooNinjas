@@ -44,6 +44,12 @@ public class User extends Controller {
         renderJSON(responseObject.toString());
     }
 
+    public static void isLoggedIn() throws Exception {
+        JsonObject responseObject = new JsonObject();
+        responseObject.addProperty("IS_LOGGED_IN", isUserLoggedIn());
+        renderJSON(responseObject.toString());
+    }
+
     public static boolean isUserLoggedIn() throws Exception {
         return session.contains("userId");
     }

@@ -2,12 +2,14 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-# Home page
+# Pages
 GET     /                                       Application.index
+GET     /tasks                                  Application.index
 
 # User endpoints
 POST    /user                                   User.create
 POST    /user/login                             User.login
+GET     /user/isloggedin                        User.isLoggedIn
 # Other possible endpoints in the future
 # PUT   /user                                   User.update
 # GET   /user/{userId}                          User.get

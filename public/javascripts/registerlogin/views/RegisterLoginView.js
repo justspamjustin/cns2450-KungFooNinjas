@@ -1,4 +1,4 @@
-define(['text!templates/register-login-template.handlebars'],function(registerLoginTemplate){
+define(['text!registerlogin/templates/register-login-template.handlebars'],function(registerLoginTemplate){
     return Backbone.View.extend({
         render: function() {
             var template = Handlebars.compile(registerLoginTemplate);
@@ -57,7 +57,7 @@ define(['text!templates/register-login-template.handlebars'],function(registerLo
                 if(data.ERROR) {
                     $('#loginWarning').text(data.ERROR);
                 } else {
-                    //todo: go to main task page
+                    router.navigate('/tasks',{trigger: true});
                 }
             },
             error: function(data) {
