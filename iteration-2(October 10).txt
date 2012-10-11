@@ -1,0 +1,57 @@
+Kung Foo Ninjas
+
+=============
+
+Retrospective – 2 – October 10, 2012
+
+-------------------------------------------------
+
+Previous Iteration Goals
+
+* Everyone have a set up development environment: We completed this.
+
+* Improve communication during iteration: Are communication was constant through change.
+
+Things you did wrong:
+
+* Lack of skill transfer/exchanged - Adam, Bryson, Dan
+
+* Not enough time spent doing research - Justin and Adam
+
+* Lack of initiative and proactivity - Adam
+
+Things you did right:
+
+* On time with our iterations - Adam and Brian
+
+* Seamless project integration - Bryson
+
+* Good collaboration - Bryson, Justin and Brian
+
+Goals for next Iteration:
+
+* Expand skill sets in javascript, java, database, and playframework
+
+* Improved communication with client
+
+Stories from last iteration:
+
+* Javascript for login: Completed - Bryson
+
+* Java for login (Closely coupled to database) : Completed - Justin
+
+* Database for login : Completed - Justin
+
+Stories for this iteration:
+
+* Communication With User - clarifying project expectations with respect to notifications and platform: 2 - Brian
+
+* UI Design - design for mobile : 8 - Bryson and Justin
+
+* UI Implementation - javascript responsive design : 10 - Justin and Bryson
+
+* Java Implementation : 8 - Adam and Dan
+
+User Interaction:
+
+None for this iteration

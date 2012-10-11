@@ -1,1 +1,1 @@
-cd ../; play war tasktracker --output=tasktrackerzip --zip; cp tasktrackerzip.war tasktracker/; cd tasktracker; af update;
+cd ../; play war tasktracker --output=tasktrackerzip --zip; cp tasktrackerzip.war tasktracker/; cd tasktracker; af login --email kungfooninjas.cs2450@gmail.com --pass 'wegotthefoo!'; af update;
