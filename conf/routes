@@ -19,6 +19,8 @@ GET     /favicon.ico                            404
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
+GET     /sencha-touch-2.0.1.1/                  staticDir:sencha-touch-2.0.1.1
+GET     /mobile/                                staticDir:mobile
 
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}

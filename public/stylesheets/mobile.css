@@ -1,0 +1,32 @@
+.task-tracker-logo {
+    
+}
+
+.task-tracker-logo i {
+    font-size: 50px;
+    margin-top: -20px;
+}
+
+.task-tracker-logo .app-name {
+    font-size: 40px;
+    margin: 0 40px;
+    width: 100px;
+    display: inline-block;
+    line-height: 30px;
+}
+
+.login-register-form {
+    width: 80% !important;
+    display: inline-block;
+    position: relative;
+    left: 20%;
+}
+
+.login-register-form input {
+    width: 70% !important;
+    height: 40px !important;
+}
+
+.login-register-form .add-on {
+    height: 40px !important;
+}
