@@ -16,7 +16,10 @@ Ext.define("mobile.view.Tasks", {
           {
             xtype: 'button',
             align: 'right',
-            html: '<i class="icon-signout"></i>'
+            html: '<i class="icon-signout"></i>',
+            onTap: function() {
+              alert('cool!');
+            }
 
           }
         ]

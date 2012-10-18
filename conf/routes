@@ -10,6 +10,11 @@ GET     /tasks                                  Application.index
 POST    /user                                   User.create
 POST    /user/login                             User.login
 GET     /user/isloggedin                        User.isLoggedIn
+
+# Parent Task Endpoints
+POST    /task                                   Task.create
+GET     /task/all                               Task.getAllTasksForUser
+
 # Other possible endpoints in the future
 # PUT   /user                                   User.update
 # GET   /user/{userId}                          User.get
