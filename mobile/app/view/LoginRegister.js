@@ -5,8 +5,17 @@ Ext.define('mobile.view.LoginRegister', {
   extend: 'Ext.Container',
   id: 'loginRegisterView',
   requires: [
-    'mobile.view.LoginRegisterCarousel'
+    'mobile.view.LoginRegisterCarousel',
+    'mobile.view.Tasks'
   ],
+
+  initialize: function() {
+    Auth.isLoggedIn(function(isLoggedIn){
+      if(isLoggedIn) {
+        Ext.getCmp('viewport').setActiveItem({xclass: 'mobile.view.Tasks'});
+      }
+    });
+  },
 
   config: {
     layout:{

@@ -29,7 +29,22 @@ Ext.define('mobile.view.LoginRegisterCarousel',{
             html: 'Sign In',
             style: 'width:80%;margin:auto;',
             onTap: function() {
-              Ext.getCmp('viewport').setActiveItem({xclass: 'mobile.view.Tasks'});
+              $.ajax({
+                url: '/user/login?email='+$('#email').val()+'&password='+$('#password').val(),
+                type: 'POST',
+                success: function(data) {
+                  if(data.ERROR) {
+                    //todo: do a real error message
+                    alert(data.ERROR);
+                  } else {
+                    Ext.getCmp('viewport').setActiveItem({xclass: 'mobile.view.Tasks'});
+                  }
+                },
+                error: function(data) {
+                  //todo: real error message
+                  alert("There was an error while you were trying to login, please try again.");
+                }
+              });
             }
           }
         ]
@@ -60,7 +75,21 @@ Ext.define('mobile.view.LoginRegisterCarousel',{
             html: 'Sign Up',
             style: 'width:80%;margin:auto;',
             onTap: function() {
-              Ext.getCmp('viewport').setActiveItem({xclass: 'mobile.view.Tasks'});
+              $.ajax({
+                url: '/user?email='+$('#register-email').val()+'&password='+$('#register-password').val(),
+                type: 'POST',
+                success: function(data) {
+                  Ext.getCmp('viewport').setActiveItem({xclass: 'mobile.view.Tasks'});
+                },
+                error: function(data) {
+                  // If there was an error.  The problem was most likely that there is already an
+                  // entry with the email address.
+                  // todo: handle the error
+                  alert('You have already registered with this email address.');
+                }
+              })
+
+
             }
           }
         ]

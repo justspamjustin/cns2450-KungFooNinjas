@@ -18,7 +18,7 @@ Ext.define("mobile.view.Tasks", {
             align: 'right',
             html: '<i class="icon-signout"></i>',
             onTap: function() {
-              alert('cool!');
+              Auth.logout();
             }
 
           }
