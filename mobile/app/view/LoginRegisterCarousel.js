@@ -15,7 +15,7 @@ Ext.define('mobile.view.LoginRegisterCarousel',{
               '<form class="login-register-form login-form">',
               '<div class="input-prepend">',
               ' <span class="add-on"><i class="icon-envelope"></i></span>',
-              ' <input class="span2" id="email" size="16" type="text" placeholder="Email">',
+              ' <input class="span2" id="email" size="16" type="email" placeholder="Email">',
               '</div>',
               '<div class="input-prepend">',
               ' <span class="add-on"><i class="icon-key"></i></span>',
@@ -26,7 +26,7 @@ Ext.define('mobile.view.LoginRegisterCarousel',{
           },
           {
             xtype: 'button',
-            html: 'Sign In',
+            html: '<i class="icon-ok-sign"></i> <span>Sign In</span>',
             style: 'width:80%;margin:auto;',
             onTap: function() {
               $.ajax({
@@ -57,7 +57,7 @@ Ext.define('mobile.view.LoginRegisterCarousel',{
               '<form class="login-register-form register-form">',
               '<div class="input-prepend">',
               ' <span class="add-on"><i class="icon-envelope"></i></span>',
-              ' <input class="span2" id="register-email" size="16" type="text" placeholder="Email">',
+              ' <input class="span2" id="register-email" size="16" type="email" placeholder="Email">',
               '</div>',
               '<div class="input-prepend">',
               ' <span class="add-on"><i class="icon-key"></i></span>',
@@ -72,7 +72,7 @@ Ext.define('mobile.view.LoginRegisterCarousel',{
           },
           {
             xtype: 'button',
-            html: 'Sign Up',
+            html: '<i class="icon-user"></i> <span>Sign Up</span>',
             style: 'width:80%;margin:auto;',
             onTap: function() {
               $.ajax({

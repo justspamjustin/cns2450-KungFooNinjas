@@ -14,6 +14,9 @@ GET     /user/isloggedin                        User.isLoggedIn
 # Parent Task Endpoints
 POST    /task                                   Task.create
 GET     /task/all                               Task.getAllTasksForUser
+PUT     /task/{id}                              Task.edit
+DELETE  /task/{id}                              Task.delete
+
 
 # Other possible endpoints in the future
 # PUT   /user                                   User.update

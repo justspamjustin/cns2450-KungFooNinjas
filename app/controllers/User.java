@@ -17,6 +17,7 @@ import java.util.List;
 public class User extends Controller {
 
     public static void create(String email, String password) throws Exception {
+        email = email.toLowerCase();
         JsonObject responseObject = new JsonObject();
         // Save the user to the database
         UserModel user = new UserModel(email,password);
@@ -27,6 +28,7 @@ public class User extends Controller {
     }
 
     public static void login(String email, String password) throws Exception {
+        email = email.toLowerCase();
         String passwordHash = Crypto.passwordHash(password);
                 List <UserModel> users = UserModel.find("email = ? AND password = ?", email, passwordHash).fetch();
         JsonObject responseObject = new JsonObject();

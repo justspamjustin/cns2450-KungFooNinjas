@@ -15,13 +15,15 @@ public class TaskModel extends Model {
     public String detailedDescription;
     public Date dueDate;
     public Date reminderDate;
+    public Boolean completed;
 
-    public TaskModel(Long ownerId, String taskName, Date createdDate, Date dueDate, Date reminderDate, String detailedDescription) {
+    public TaskModel(Long ownerId, String taskName, Date createdDate, Date dueDate, Date reminderDate, String detailedDescription, Boolean completed) {
         this.ownerId = ownerId;
         this.taskName = taskName;
         this.createdDate = createdDate;
         this.dueDate = dueDate;
         this.reminderDate = reminderDate;
         this.detailedDescription = detailedDescription;
+        this.completed = completed;
     }
 }

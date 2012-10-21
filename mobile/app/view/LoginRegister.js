@@ -10,6 +10,7 @@ Ext.define('mobile.view.LoginRegister', {
   ],
 
   initialize: function() {
+    var self = this;
     Auth.isLoggedIn(function(isLoggedIn){
       if(isLoggedIn) {
         Ext.getCmp('viewport').setActiveItem({xclass: 'mobile.view.Tasks'});
@@ -18,6 +19,7 @@ Ext.define('mobile.view.LoginRegister', {
   },
 
   config: {
+    navigationBar: false,
     layout:{
       type: 'fit',
       align: 'stretch'
@@ -33,7 +35,7 @@ Ext.define('mobile.view.LoginRegister', {
           {
             xtype: 'panel',
             ui: 'plain',
-            html: '<div class="task-tracker-logo"><i class="icon-check"></i> <span class="app-name">Task Tracker</span></div>',
+            html: '<div class="task-tracker-logo"><i class="icon-ok-sign"></i> <span class="app-name">Task Tracker</span></div>',
             style: 'margin:auto;color: white;'
           }
         ]
