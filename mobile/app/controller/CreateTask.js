@@ -12,6 +12,5 @@ Ext.define('mobile.controller.CreateTask', {
   onCloseButtonTap: function() {
     Ext.getCmp('tasksView').animateActiveItem(1,
       {type: 'reveal', direction: 'down'});
-
   }
 });

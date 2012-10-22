@@ -15,18 +15,47 @@
     line-height: 30px;
 }
 
-.login-register-form {
+/****** Components *******/
+
+.datepicker input {
+    background: none !important;
+    border: none !important;
+}
+
+/****** Login/Register *******/
+
+.login-register-form, .centered-form {
     width: 80% !important;
     display: inline-block;
     position: relative;
-    left: 20%;
+    left: 20% !important;
 }
 
-.login-register-form input {
+.login-register-form input,
+.centered-form input,
+.centered-form textarea {
     width: 70% !important;
     height: 40px !important;
 }
 
-.login-register-form .add-on {
+.centered-form textarea {
+    height: 150px !important;
+}
+
+.login-register-form .add-on, .centered-form .add-on {
     height: 40px !important;
 }
+
+/****** Create Task *******/
+.create-task-form .centered-form {
+    width: 95% !important;
+    left: 4% !important;
+}
+
+.create-task-form .centered-form input,
+.create-task-form .centered-form textarea {
+    width: 90% !important;
+}
+
+
+
