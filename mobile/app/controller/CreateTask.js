@@ -22,14 +22,14 @@ Ext.define('mobile.controller.CreateTask', {
   },
 
   onCreateTaskButtonTap: function() {
-    var taskStore = Ext.create('mobile.store.Tasks');
+    var taskStore = Ext.getStore('Tasks');
     taskStore.add({
       taskName: $('#task-name').val(),
       detailedDescription: $('#description').val(),
       dueDate: $('input[name="due-date"]').val(),
       reminderDate: $('input[name="reminder-date"]').val()
     });
-    taskStore.sync();
+//    taskStore.sync();
     this.closeDialog();
   },
   closeDialog: function() {

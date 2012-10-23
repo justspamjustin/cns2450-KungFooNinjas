@@ -1,7 +1,8 @@
 Ext.define('mobile.view.Tasks', {
   extend: 'Ext.NavigationView',
   requires: [
-    'mobile.view.CreateTask'
+    'mobile.view.CreateTask',
+    'mobile.view.TasksList'
   ],
   id: 'tasksView',
   config: {
@@ -38,8 +39,7 @@ Ext.define('mobile.view.Tasks', {
             ]
           },
           {
-            xtype: 'panel',
-            html: '<h1>Tasks will go here!</h1>'
+            xclass: 'mobile.view.TasksList'
           }
         ]
       }
