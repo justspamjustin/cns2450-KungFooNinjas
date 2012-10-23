@@ -5,6 +5,14 @@ Ext.application({
     'Ext.MessageBox'
   ],
 
+  models: [
+    'Task'
+  ],
+
+  stores: [
+    'Tasks'
+  ],
+
   views: ['Main'],
 
   controllers: [

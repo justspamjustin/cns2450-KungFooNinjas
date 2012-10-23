@@ -13,7 +13,7 @@ GET     /user/isloggedin                        User.isLoggedIn
 
 # Parent Task Endpoints
 POST    /task                                   Task.create
-GET     /task/all                               Task.getAllTasksForUser
+GET     /task                                   Task.getAllTasksForUser
 PUT     /task/{id}                              Task.edit
 DELETE  /task/{id}                              Task.delete
 

@@ -1,22 +1,26 @@
 package controllers;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonObject;
+import com.google.gson.*;
 import models.TaskModel;
-import play.data.binding.ParamNode;
+import play.libs.IO;
 import play.mvc.Controller;
 
 import java.util.Date;
 import java.util.List;
 
 public class Task extends Controller {
-    public static void create(String taskName, String detailedDescription,Date dueDate, Date reminderDate) throws Exception {
+    public static void create() throws Exception {
+        String requestString = IO.readContentAsString(request.body);
+        Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd").create();
+        JsonParser jsonParser = new JsonParser();
+        JsonObject json = jsonParser.parse(requestString).getAsJsonObject();
+        json.remove("id");
+        TaskModel taskModel = gson.fromJson(json,TaskModel.class);
+
         String currentUserIdString = User.getUserId();
-        Long currentUserId = Long.parseLong(currentUserIdString);
-        Date creationDate = new Date();
-        Boolean completed = false;
-        TaskModel taskModel = new TaskModel(currentUserId,taskName,creationDate,dueDate,reminderDate,detailedDescription, completed);
+        taskModel.ownerId = Long.parseLong(currentUserIdString);
+        taskModel.createdDate = new Date();
+        taskModel.completed = false;
         taskModel.save();
 
         JsonObject responseObject = new JsonObject();
