@@ -16,7 +16,7 @@ Ext.define('mobile.controller.TasksList', {
       if($checkbox.has($target).length > 0 ||
         $checkbox.is($target)) {
         this.onTapCheckbox(target.data);
-      } else if($deleteButton.has($target)) {
+      } else if($target.hasClass('delete-task')) {
         this.onTapDelete(target.data);
       } else {
         //todo: go to details
@@ -43,8 +43,9 @@ Ext.define('mobile.controller.TasksList', {
   },
 
   onTapDelete: function(data) {
-    var model = Ext.getStore('Tasks').getById(data.id);
-    model.destroy();
+    var store = Ext.getStore('Tasks');
+    var model = store.getById(data.id);
+    store.remove(model);
   }
 
 

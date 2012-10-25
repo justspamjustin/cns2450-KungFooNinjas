@@ -38,8 +38,8 @@ public class Task extends Controller {
         renderJSON(jsonObject);
     }
 
-    public static void delete(Long taskId) throws Exception {
-        TaskModel.delete("id = ?", taskId);
+    public static void delete(Long id) throws Exception {
+        TaskModel.delete("id = ?", id);
         JsonObject responseObject = new JsonObject();
         responseObject.addProperty("MESSAGE", "Success");
         renderJSON(responseObject.toString());
@@ -51,7 +51,7 @@ public class Task extends Controller {
         JsonParser jsonParser = new JsonParser();
         JsonObject json = jsonParser.parse(requestString).getAsJsonObject();
         json.remove("id");
-        TaskModel requestTaskModel = gson.fromJson(json,TaskModel.class);
+        TaskModel requestTaskModel = gson.fromJson(json, TaskModel.class);
         TaskModel taskModel = TaskModel.findById(id);
         if(requestTaskModel.taskName != null) {
             taskModel.taskName = requestTaskModel.taskName;
