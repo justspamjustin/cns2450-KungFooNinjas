@@ -94,5 +94,21 @@
     float: right;
 }
 
+.inner-task-list-item .delete-task-container {
+    display: inline-block;
+    overflow: hidden;
+    position:relative;
+    left: 60px;
+}
+
+.inner-task-list-item .delete-task {
+    -webkit-transform: translateX(70px);
+    -webkit-transition: all .3s;
+}
+
+.inner-task-list-item .delete-task.showing {
+    -webkit-transform: translateX(0px);
+}
+
 
 
