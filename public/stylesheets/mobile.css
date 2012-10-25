@@ -57,5 +57,42 @@
     width: 90% !important;
 }
 
+/*******   TaskList ***********/
+.task-list-item .x-list-item-label {
+    border: 0 !important;
+    padding: 0 !important;
+}
+
+.inner-task-list-item {
+    border-bottom: 1px solid #c1c1c1;
+    width: 100%;
+    padding: 0.65em 0.8em;
+}
+
+.task-list-item.x-item-selected .inner-task-list-item,
+.inner-task-list-item.completed {
+    border-bottom: 0;
+}
+
+.inner-task-list-item.completed .task-name {
+    text-decoration: line-through;
+}
+
+.inner-task-list-item .task-checkbox {
+    color: #c1c1c1;
+}
+
+.inner-task-list-item.completed {
+    color: #c1c1c1;
+}
+
+.inner-task-list-item.completed .task-checkbox {
+    color: #3d3d3d;
+}
+
+.inner-task-list-item .task-due-date {
+    float: right;
+}
+
 
 

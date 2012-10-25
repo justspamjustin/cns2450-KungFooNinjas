@@ -13,11 +13,19 @@ Ext.application({
     'Tasks'
   ],
 
-  views: ['Main'],
+  views: [
+    'Main',
+    'CreateTask',
+    'LoginRegister',
+    'LoginRegisterCarousel',
+    'Tasks',
+    'TasksList'
+  ],
 
   controllers: [
     'Tasks',
-    'CreateTask'
+    'CreateTask',
+    'TasksList'
   ],
 
   icon: {

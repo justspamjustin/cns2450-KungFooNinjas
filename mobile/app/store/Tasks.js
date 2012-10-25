@@ -7,6 +7,11 @@ Ext.define('mobile.store.Tasks',{
     model: 'mobile.model.Task',
     autoLoad: true,
     autoSync: true,
+    grouper: {
+      groupFn: function(record) {
+        return record.get('completed');
+      }
+    },
     proxy: {
       type: 'rest',
       url: '/task'

@@ -29,7 +29,6 @@ Ext.define('mobile.controller.CreateTask', {
       dueDate: $('input[name="due-date"]').val(),
       reminderDate: $('input[name="reminder-date"]').val()
     });
-//    taskStore.sync();
     this.closeDialog();
   },
   closeDialog: function() {

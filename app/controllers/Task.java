@@ -45,28 +45,31 @@ public class Task extends Controller {
         renderJSON(responseObject.toString());
     }
 
-    public static void edit(Long id, String taskName, String detailedDescription,Date dueDate, Date reminderDate, Boolean completed) throws Exception {
+    public static void edit(Long id) throws Exception {
+        String requestString = IO.readContentAsString(request.body);
+        Gson gson = new GsonBuilder().setDateFormat("MMM dd, yyyy hh:mm:ss a").create();
+        JsonParser jsonParser = new JsonParser();
+        JsonObject json = jsonParser.parse(requestString).getAsJsonObject();
+        json.remove("id");
+        TaskModel requestTaskModel = gson.fromJson(json,TaskModel.class);
         TaskModel taskModel = TaskModel.findById(id);
-        if(taskName != null) {
-            taskModel.taskName = taskName;
+        if(requestTaskModel.taskName != null) {
+            taskModel.taskName = requestTaskModel.taskName;
         }
-        if(detailedDescription != null) {
-            taskModel.detailedDescription = detailedDescription;
+        if(requestTaskModel.detailedDescription != null) {
+            taskModel.detailedDescription = requestTaskModel.detailedDescription;
         }
-        if(dueDate != null) {
-            taskModel.dueDate = dueDate;
+        if(requestTaskModel.dueDate != null) {
+            taskModel.dueDate = requestTaskModel.dueDate;
         }
-        if(reminderDate != null) {
-            taskModel.reminderDate = reminderDate;
+        if(requestTaskModel.reminderDate != null) {
+            taskModel.reminderDate = requestTaskModel.reminderDate;
         }
-        if(completed != null) {
-            taskModel.completed = completed;
+        if(requestTaskModel.completed != null) {
+            taskModel.completed = requestTaskModel.completed;
         }
         taskModel.save();
-        GsonBuilder builder = new GsonBuilder();
-        Gson gson = builder.create();
-        String jsonObject = gson.toJson(taskModel);
-        renderJSON(jsonObject);
+        renderJSON(taskModel);
     }
 
     
