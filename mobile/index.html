@@ -79,6 +79,16 @@
           });
         }
       }
+      var Util = {
+        isNotInHomeScreen: function() {
+          if(typeof(window.navigator.standalone) != 'undefined') {
+            if(!window.navigator.standalone) {
+              return true;
+            }
+          }
+          return false;
+        }
+      }
     </script>
 </head>
 <body>

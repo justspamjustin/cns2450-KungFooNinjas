@@ -12,7 +12,7 @@ Ext.define('mobile.view.LoginRegister', {
   initialize: function() {
     var self = this;
     Auth.isLoggedIn(function(isLoggedIn){
-      if(isLoggedIn) {
+      if(isLoggedIn && !Util.isNotInHomeScreen()) {
         Ext.getCmp('viewport').setActiveItem({xclass: 'mobile.view.Tasks'});
       }
     });
