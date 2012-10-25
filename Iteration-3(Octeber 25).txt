@@ -1,0 +1,54 @@
+Kung Foo Ninjas
+
+=============
+
+Retrospective – 3 – October 25, 2012
+
+-------------------------------------------------
+
+Previous Iteration Goals
+
+* Expand skill sets in javascript, java, database, and playframework - Dan-js
+
+* Improved communication with client
+
+Things you did wrong:
+
+* Still need to improve and share our skill sets. - Justin, Adam
+
+Things you did right:
+
+* The app looks professional, I would be pleased to present it to our client - Dan
+
+* The layout design for the phone was done brilliantly - Bryson
+
+* We accomplished all of our goals and stories for this iteration. - Justin
+
+Goals for next Iteration:
+
+* Each team member should have at least one direct commit to the project in github.  - Justin
+
+* The desktop page should load the task list from the server and be able to create and save tasks to the server - Bryson
+
+Stories from last iteration:
+
+* Communication With User - clarifying project expectations with respect to notifications and platform: Completed 2 - Brian
+
+* UI Design - design for mobile : Completed 8 - Bryson and Justin
+
+* UI Implementation - javascript responsive design : Completed 10 - Justin and Bryson
+
+* Java Implementation: Completed 8 - Adam and Dan
+
+Stories for this iteration:
+Our deliverable: Deliverable 4 - Task Management System (ability to add sub tasks to parent tasks)
+
+* Complete the desktop layout for the task view and task list view pages - Bryson and Adam
+
+* Java Implementation: - Dan and Brian
+
+* Mobile frontend Implementation - Justin
+
+User Interaction:
+
+Sent an email, but haven’t heard back yet. - Brian
