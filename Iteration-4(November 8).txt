@@ -1,0 +1,109 @@
+Kung Foo Ninjas
+
+=============
+
+Retrospective – 4 – November 8, 2012
+
+-------------------------------------------------
+
+Previous Iteration Goals
+
+* Each team member should have at least one direct commit to the project in github.  - Justin
+
+* The desktop page should load the task list from the server and be able to create and save tasks to the server - Bryson
+
+Things you did wrong:
+
+* We didn’t complete our goals for this iteration - Justin and Adam
+
+* We did not finish our stories this iteration - Bryson
+
+* It seems that there was more going on for everyone this iteration, could have had individual and team contingent plans. - Dan 
+
+Things you did right:
+
+* We had user interaction. - Justin, Brian and Dan
+
+* We spent considerable time studying for midterms - Bryson and Adam
+
+Goals for next Iteration:
+
+* Finish Previous Iterations Stories
+
+* Each team member should have at least one direct commit to the project in github.  - Justin
+
+Stories from last iteration:
+
+* Complete the desktop layout for the task view and task list view pages - Bryson and Adam
+
+* Java Implementation: - Dan and Brian
+
+* Mobile frontend Implementation - Justin
+
+Stories for this iteration:
+Our deliverable: Deliverable 4 - Task Management System (ability to add sub tasks to parent tasks)
+
+* Complete the desktop layout for the task view and task list view pages - Bryson and Adam
+
+* Java Implementation: - Dan and Brian
+
+* Mobile frontend Implementation - Justin
+
+
+User Interaction:
+
+Hi Brian,
+
+I apologize for the delay.  I thought I had responded, but looked back
+and realized that I must have typed a response and not hit send.  In
+any event, I have looked at it, and I appreciate the background that
+was...borrowed :)  The rest certainly appears functional, if not
+elegant.  I'll be very interested to see a working model.  Let me know
+when that appears.
+
+As to suggestions, (and maybe an explanation for the "not elegant"
+comment) the UI is simply a big gray box, which frankly doesn't need
+that much space, so it's visually unpleasant.   But, beyond that, and
+more importantly, it's unnecessary and diverges from industry standard
+to have the registration on the same page as the login.  Most sites
+have a registration link, but most users would not want to be
+presented with a registration on the same page as the actual login.
+Where they are identical parameters, it appears confusing.  I could
+see myself accidentally entering my login info into the registration
+boxes and being frustrated when it tells me a user by that id already
+exists.  So, my suggestion is to make them two separate pages.  But if
+not, like I say, I think it would still work, it just wouldn't be as
+nice.
+
+Thanks,
+Branson K. West
+
+Branson K West Law, PC
+10421 So. Jordan Gateway, Suite 600
+South Jordan, UT 84095
+(801) 285-5550 Office
+(801) 682-9279 Cell
+(801) 495-7041 Fax
+
+This communication is sent from Branson K West Law, PC/ Branson K.
+West and is intended solely for the named recipient.  Mr. West is an
+attorney representing the interests of third parties.  If you have
+received this by mistake please inform Mr. West of the error
+immediately.
+
+
+On Tue, Oct 23, 2012 at 10:45 PM, Brian Staheli <bstah99@hotmail.com> wrote:
+> Branson,
+>
+> Here is an update on our task tracker project we have been working on. So
+> far we have a login page where you can register and login to an account. The
+> actual tracker itself in not functional as of yet. You will be able to
+> access this from your iphone, but it will be through the web browser and not
+> an actual app since there are costs to do so. The reminders for the tasks
+> will come via emails and not as texts. Here is the url for the project so
+> far: http://tasktracker.aws.af.cm/. Tell us your thoughts on it so far and
+> any suggestions you may have for it.
+>
+> thanks,
+> Brian Staheli
+
