@@ -5,6 +5,9 @@ Ext.define('mobile.view.Tasks', {
     'mobile.view.TasksList'
   ],
   id: 'tasksView',
+  initialize: function() {
+    Ext.getStore('Tasks').load();
+  },
   config: {
     navigationBar: false,
     layout: 'card',

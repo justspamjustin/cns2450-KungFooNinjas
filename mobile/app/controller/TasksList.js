@@ -8,6 +8,7 @@ Ext.define('mobile.controller.TasksList', {
       }
     }
   },
+    
   onItemTap: function(container, item, index,target, e, eOpts) {
     var $checkbox = $(index.dom).find('.task-checkbox');
     var $target = $(e.browserEvent.target);
