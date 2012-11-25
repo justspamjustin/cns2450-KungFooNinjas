@@ -1,0 +1,49 @@
+Kung Foo Ninjas
+
+=============
+
+Retrospective – 5 – November 24, 2012
+
+-------------------------------------------------
+
+Previous Iteration Goals
+
+* Finish Previous Iterations Stories
+
+* Each team member should have at least one direct commit to the project in github.  - Justin
+
+Things you did wrong:
+
+* Didn’t quite finish all of our stories - Justin
+
+Things you did right:
+
+* Created a details view for the tasks - Justin
+
+Goals for next Iteration:
+
+* Better direction on what things each of us are supposed to do.
+
+Stories from last iteration:
+
+* Our deliverable: Deliverable 4 - Task Management System (ability to add sub tasks to parent tasks)
+
+* Complete the desktop layout for the task view and task list view pages - Bryson and Adam
+
+* Java Implementation: - Dan and Brian
+
+* Mobile frontend Implementation - Justin
+
+Stories for this iteration:
+
+* Our deliverable: Deliverable 4 - Task Management System (ability to add sub tasks to parent tasks)
+
+* Mobile frontend Implementation - Justin
+
+* Java Implementation: - Dan and Brian
+
+
+User Interaction:
+
+None this time.
+
