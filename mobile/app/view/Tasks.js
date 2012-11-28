@@ -10,7 +10,6 @@ Ext.define('mobile.view.Tasks', {
   },
   config: {
     navigationBar: false,
-    layout: 'card',
     items: [
       {
         xclass: 'mobile.view.CreateTask'

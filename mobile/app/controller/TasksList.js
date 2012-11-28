@@ -8,7 +8,7 @@ Ext.define('mobile.controller.TasksList', {
       }
     }
   },
-    
+
   onItemTap: function(container, item, index,target, e, eOpts) {
     var $checkbox = $(index.dom).find('.task-checkbox');
     var $target = $(e.browserEvent.target);
@@ -20,7 +20,7 @@ Ext.define('mobile.controller.TasksList', {
       } else if($target.hasClass('delete-task')) {
         this.onTapDelete(target.data);
       } else {
-        //todo: go to details
+        Ext.getCmp('tasksView').push({xclass: 'mobile.view.TaskDetails',modelId:target.data.id});
       }
     } else {
       $deleteButton.removeClass('showing');

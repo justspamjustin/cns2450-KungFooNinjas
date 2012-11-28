@@ -5,7 +5,6 @@ Ext.define('mobile.store.Tasks',{
   ],
   config: {
     model: 'mobile.model.Task',
-//    autoLoad: true,
     autoSync: true,
     grouper: {
       groupFn: function(record) {

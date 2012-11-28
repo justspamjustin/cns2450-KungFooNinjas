@@ -19,7 +19,8 @@ Ext.application({
     'LoginRegister',
     'LoginRegisterCarousel',
     'Tasks',
-    'TasksList'
+    'TasksList',
+    'TaskDetails'
   ],
 
   controllers: [
