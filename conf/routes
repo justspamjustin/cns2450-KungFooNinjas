@@ -17,6 +17,9 @@ GET     /task                                   Task.getAllTasksForUser
 PUT     /task/{id}                              Task.edit
 DELETE  /task/{id}                              Task.delete
 
+# Sub Task Endpoints
+POST    /subtask                                SubTask.create
+
 
 # Other possible endpoints in the future
 # PUT   /user                                   User.update

@@ -24,9 +24,9 @@ public class SubTaskModel extends Model {
     public Date reminderDate;
     public Boolean completed;
 
-    public SubTaskModel(Long taskId, Date createdDate, Date dueDate, Date reminderDate, String reminderMessage, Boolean completed) {
+    public SubTaskModel(Long taskId, String subTaskName, Date createdDate, Date dueDate, Date reminderDate, String reminderMessage, Boolean completed) {
         this.taskId = taskId;
-	this.subTaskName = subTaskName;
+	    this.subTaskName = subTaskName;
         this.createdDate = createdDate;
         this.dueDate = dueDate;
         this.reminderDate = reminderDate;

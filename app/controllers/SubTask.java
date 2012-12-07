@@ -16,7 +16,7 @@ import java.util.Date;
 import java.util.List;
 
 public class SubTask extends Controller {
-public static void createSubTask() throws Exception {
+public static void create() throws Exception {
         String requestString = IO.readContentAsString(request.body);
         Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd").create();
         JsonParser jsonParser = new JsonParser();

@@ -1,0 +1,47 @@
+Kung Foo Ninjas
+
+=============
+
+Retrospective – 6 – December 6, 2012
+
+-------------------------------------------------
+
+Previous Iteration Goals
+
+* Better direction on what things each of us are supposed to do.
+
+Things you did wrong:
+
+* Failure to communicate tasks to be completed. - Justin
+
+* Lack of Accountability for iteration goals. - Dan
+
+* Didn’t finish all the tasks that spilled over from the previous iteration. - Bryson
+
+Things you did right:
+
+* Added subtasks implementation in the back-end java - Justin and Dan
+
+* Gave a sweet-”A+” presentation! - All
+
+* Finally learned some Java/wrote two classes/submitted two commits. - Dan
+
+* Bribed the professor with cheesy jokes in the iteration & cookies if requested before the final. ;)
+
+Stories from last iteration:
+
+* Our deliverable: Deliverable 4 - Task Management System (ability to add sub-tasks to parent tasks)
+
+* Mobile frontend Implementation - Justin
+
+* Java Implementation: - Dan and Brian
+
+User Interaction:
+
+None this time.
+
+Cheesy Jokes
+
+* If you put “google” into google, it will break the internet.
+
+* All your base are belong to us.

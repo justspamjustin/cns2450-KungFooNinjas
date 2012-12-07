@@ -4,7 +4,7 @@ applications:
     url: ${name}.${target-base}
     infra: aws
     instances: 1
-    mem: 256M
+    mem: 2048M
     framework: 
       info: 
         exec: 
